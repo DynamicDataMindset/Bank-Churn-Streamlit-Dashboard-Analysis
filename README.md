@@ -53,7 +53,7 @@ This project analyzes customer churn patterns using a dataset of **10,000 bank c
 
 ## 📁 Project Structure
 
-```plaintext
+
 Bank-Customer-Churn-Analysis/
 │
 ├── notebooks/
@@ -68,133 +68,109 @@ Bank-Customer-Churn-Analysis/
 ├── requirements.txt                          # Python dependencies
 ├── README.md                                 # Project documentation
 └── .gitignore                                # Git ignore file
+
+
 🚀 Quick Start
 1. Clone the Repository
-bash
+   
+```bash
 Copy code
 git clone https://github.com/[your-username]/bank-customer-churn-analysis.git
 cd bank-customer-churn-analysis
-2. Install Dependencies
-bash
+```
+3. Install Dependencies
+```bash
 Copy code
 pip install -r requirements.txt
-3. Run the Analysis Notebook
-bash
+```
+4. Run the Analysis Notebook
+```bash
 Copy code
 jupyter notebook notebooks/Bank_Customer_Churn_Analysis.ipynb
-4. Launch Interactive Dashboard
-bash
+```
+5. Launch Interactive Dashboard
+```bash
 Copy code
 streamlit run dashboard/churn_dashboard.py
+```
+
 📈 Key Analysis Results
-Churn Predictor Ranking
-Complaints – Customers with complaints churned at 90% vs 15% baseline
 
-Satisfaction Score – Score = 2 linked to 55% churn vs 8% at score 5
+1) Churn Predictor Ranking
+-Complaints – Customers with complaints churned at 90% vs 15% baseline
+-Satisfaction Score – Score = 2 linked to 55% churn vs 8% at score 5
+-Balance – Low balance customers churned at 34.7% vs 19.9% medium balance
+-Credit Score – Poor credit category churned 2x higher than excellent credit
 
-Balance – Low balance customers churned at 34.7% vs 19.9% medium balance
+2) Business Impact
+-High-Risk Customers: ~2,440 customers identified with >50% churn probability
+-Potential Revenue Saved: $[Insert Estimate] annually via retention efforts
+-ROI: [Insert %] return on customer retention investment
 
-Credit Score – Poor credit category churned 2x higher than excellent credit
+3) Segmentation
+-Critical Risk: ~10% of customers (low satisfaction + complaints)
+-Medium Risk: ~15% of customers (low balance, poor credit)
+-Low Risk: ~75% of customers (stable tenure, no complaints)
 
-Business Impact
-High-Risk Customers: ~2,440 customers identified with >50% churn probability
+4) Interactive Dashboard Features
+-The Streamlit dashboard includes:
+-Real-time filtering by demographics & financial metrics
+-Interactive churn pattern visualizations
+-Risk assessment tools to flag high-risk customers
+-Business metrics with ROI calculations & recommendations
 
-Potential Revenue Saved: $[Insert Estimate] annually via retention efforts
-
-ROI: [Insert %] return on customer retention investment
-
-Segmentation
-Critical Risk: ~10% of customers (low satisfaction + complaints)
-
-Medium Risk: ~15% of customers (low balance, poor credit)
-
-Low Risk: ~75% of customers (stable tenure, no complaints)
-
-🎨 Interactive Dashboard Features
-The Streamlit dashboard includes:
-
-Real-time filtering by demographics & financial metrics
-
-Interactive churn pattern visualizations
-
-Risk assessment tools to flag high-risk customers
-
-Business metrics with ROI calculations & recommendations
-
-Dashboard Preview
+5) Dashboard Preview
 (Add screenshots here)
 
-🎯 Business Recommendations
-Immediate Actions (30 days)
+6) Business Recommendations
+-Immediate Actions (30 days)
+-Implement faster complaint resolution (churn drops ~75% without complaints)
+-Target dissatisfied customers (Score ≤2) with personalized offers
+-Strategic Initiatives (90 days)
+-Introduce balance-based loyalty programs
+-Launch credit score education + product bundling to increase stickiness
+-Expand customer engagement for inactive members
 
-Implement faster complaint resolution (churn drops ~75% without complaints)
+7) Methodology
+-Data Quality Assessment – Checked missing values, duplicates, dtypes
+-EDA – Distribution analysis, correlations, visual insights
+-Hypothesis Testing – Validated drivers via groupby + chi-square tests
+-Segmentation – Customer risk profiling into tiers
+-Business Impact – ROI estimation & actionable recommendations
 
-Target dissatisfied customers (Score ≤2) with personalized offers
+8) Future Enhancements
+-Predictive ML models with scikit-learn
+-Real-time churn monitoring dashboards
+-A/B testing framework for retention strategies
+-Customer Lifetime Value (CLV) analysis
 
-Strategic Initiatives (90 days)
+9) Documentation
+-Detailed Report: reports/Project_Report.pdf
+-Code: Fully commented notebook + Streamlit app
+-Methodology Notes: Included inline with code
 
-Introduce balance-based loyalty programs
+10) Contributing
+-This project was developed as part of a data science internship.
+-Issues: Open issues for bugs or enhancements
+-Pull Requests: Contributions welcome
 
-Launch credit score education + product bundling to increase stickiness
+11) Contact: [Your Email]
 
-Expand customer engagement for inactive members
-
-📊 Methodology
-Data Quality Assessment – Checked missing values, duplicates, dtypes
-
-EDA – Distribution analysis, correlations, visual insights
-
-Hypothesis Testing – Validated drivers via groupby + chi-square tests
-
-Segmentation – Customer risk profiling into tiers
-
-Business Impact – ROI estimation & actionable recommendations
-
-🔮 Future Enhancements
-Predictive ML models with scikit-learn
-
-Real-time churn monitoring dashboards
-
-A/B testing framework for retention strategies
-
-Customer Lifetime Value (CLV) analysis
-
-📝 Documentation
-Detailed Report: reports/Project_Report.pdf
-
-Code: Fully commented notebook + Streamlit app
-
-Methodology Notes: Included inline with code
-
-🤝 Contributing
-This project was developed as part of a data science internship.
-
-Issues: Open issues for bugs or enhancements
-
-Pull Requests: Contributions welcome
-
-Contact: [Your Email]
-
-📄 License
+12) License
 Licensed under the MIT License – see the LICENSE file for details.
 
-🙏 Acknowledgments
+13) Acknowledgments
 Dataset: Radheshyam Kollipara on Kaggle
 
-Internship: Hex Softwares for project guidance
-
-Community: Python & data science open-source contributors
+14) Internship: Hex Softwares for project guidance
 
 📞 Contact
-Author: [Your Name]
-Email: [Your Email]
-LinkedIn: [Your LinkedIn Profile]
-Portfolio: [Your Portfolio Website]
+Author: Boniface Ramushu
+Email:  bonifaceramushu28@gmail.com
+LinkedIn: 
+Portfolio: 
 
 🎨 Dashboard Demo
 [Add deployed Streamlit app link]
-
-📺 Project Walkthrough
-[Add link to YouTube/loom video if available]
 
 This project demonstrates end-to-end data science capability: from exploratory analysis to business insights to dashboard deployment.
