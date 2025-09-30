@@ -50,28 +50,13 @@ This project analyzes customer churn patterns using a dataset of **10,000 bank c
 - **Data Source**: KaggleHub  
 
 ---
-Bank-Customer-Churn-Analysis/
-│
-├── notebooks/
-│ └── Bank_Customer_Churn_Analysis.ipynb # Main analysis notebook
-│
-├── dashboard/
-│ └── churn_dashboard.py # Interactive Streamlit dashboard
-│
-├── reports/
-│ └── Project_Report.pdf # Detailed analysis report
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Git ignore file
-
 
 ---
 
 ## 🚀 Quick Start
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/[your-username]/bank-customer-churn-analysis.git
 cd bank-customer-churn-analysis
 
