@@ -176,7 +176,7 @@ The interactive Streamlit dashboard includes:
 <img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/71d27055-46f8-46b1-bb53-70f32b41e7f3" />
 *
 
-**Live Demo**: [[Streamlit App Link](https://bankchurndashboard.streamlit.app/)](#) 
+**Live Demo**: [Streamlit App Link](https://bankchurndashboard.streamlit.app/)
 
 ---
 
