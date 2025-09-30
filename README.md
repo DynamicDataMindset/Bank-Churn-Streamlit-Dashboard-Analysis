@@ -3,8 +3,8 @@
 A comprehensive exploratory data analysis project identifying key factors that predict customer churn in banking, with actionable business insights and an interactive dashboard.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-success.svg)
+![Internship](https://img.shields.io/badge/Internship-Hex%20Softwares-orange.svg)
 
 ---
 
@@ -22,14 +22,14 @@ A comprehensive exploratory data analysis project identifying key factors that p
 - [Methodology](#-methodology)
 - [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Contact](#-contact)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 🎯 Project Overview
 
-This project analyzes customer churn patterns using a dataset of **10,000 bank customers** to identify the primary factors that predict customer departure. The analysis reveals critical insights that can help financial institutions reduce customer attrition through **targeted retention strategies**.
+This project was developed as part of the **Data Science Internship Program at Hex Softwares** (Task 1: Exploratory Data Analysis). The analysis examines customer churn patterns using a dataset of **10,000 bank customers** to identify the primary factors that predict customer departure. The analysis reveals critical insights that can help financial institutions reduce customer attrition through **targeted retention strategies**.
 
 ### Business Impact
 
@@ -107,8 +107,7 @@ Bank-Customer-Churn-Analysis/
 │   └── .gitkeep                              # Dataset downloaded via KaggleHub
 │
 ├── requirements.txt                          # Python dependencies
-├── README.md                                 # Project documentation
-├── LICENSE                                   # MIT License
+├── README.md                                 # Project documentation                                  
 └── .gitignore                                # Git ignore file
 ```
 
@@ -173,9 +172,11 @@ The interactive Streamlit dashboard includes:
 
 ### Dashboard Preview
 
-> *Add screenshots here*
+> *<img width="1916" height="967" alt="image" src="https://github.com/user-attachments/assets/9970baac-5436-4d02-a6f4-75a562511370" />
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/71d27055-46f8-46b1-bb53-70f32b41e7f3" />
+*
 
-**Live Demo**: [Streamlit App Link](#) *(Coming Soon)*
+**Live Demo**: [[Streamlit App Link](https://bankchurndashboard.streamlit.app/)](#) 
 
 ---
 
@@ -217,7 +218,13 @@ The interactive Streamlit dashboard includes:
 
 ## 🤝 Contributing
 
-This project was developed as part of a data science internship. Contributions are welcome!
+This project was developed as part of the **Hex Softwares Data Science Internship Program**. 
+
+While this is primarily an internship project, feedback and suggestions are welcome! Feel free to:
+
+- Open issues for bugs or suggestions
+- Fork the repository for your own learning
+- Share your improvements or variations
 
 ### How to Contribute
 
@@ -229,17 +236,28 @@ This project was developed as part of a data science internship. Contributions a
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
-- **Dataset**: [Radheshyam Kollipara](https://www.kaggle.com/radheshyamkollipara) on Kaggle
-- **Internship**: Hex Softwares for project guidance and mentorship
-- **Community**: Thanks to the open-source data science community
+### Hex Softwares - Data Science Internship
+
+This project was completed as **Task 1: Exploratory Data Analysis (EDA) on a Public Dataset** under the Data Science Internship Program at **Hex Softwares**.
+
+**About Hex Softwares:**
+> Hex Softwares is a leading software development company dedicated to fostering talent and innovation in various domains. With a strong commitment to excellence, they offer internship opportunities that provide hands-on experience in cutting-edge technologies and a dynamic work environment.
+
+**Program Details:**
+- **Internship Program**: Data Science
+- **Task**: Task 1 - Exploratory Data Analysis (EDA)
+- **Project**: Bank Customer Churn Analysis
+- **Duration**: 1 Month
+- **Website**: [www.hexsoftwares.tech](http://www.hexsoftwares.tech)
+- **Contact**: info@hexsoftwares.tech
+
+### Special Thanks
+
+- **Hex Softwares Team** for providing this valuable learning opportunity and comprehensive internship program
+- **Dataset**: [Radheshyam Kollipara](https://www.kaggle.com/radheshyamkollipara) on Kaggle for the Bank Customer Churn dataset
+- **Open-source Community** for the amazing tools and libraries that made this analysis possible
 
 ---
 
